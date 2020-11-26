@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {Text,View,TouchableOpacity} from 'react-native';
+import {Text,View,TextInput,Button} from 'react-native';
 
 class MainPage extends Component {
 
@@ -8,14 +8,10 @@ class MainPage extends Component {
 
         return (
 
-            <View style={{flex:1,justifyContent: 'center'}} >
+            <View >
 
-            
-
-                <Text style={{alignItems: 'center'}}>Main Page</Text>
-
-               
-
+                <TextInput placeholder="Searching lecture"/>
+                <Button title="Search" ></Button>
             </View>
 
         );

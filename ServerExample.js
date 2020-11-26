@@ -72,7 +72,7 @@ export default class ServerExample extends Component{
                 <Stack.Navigator>
                 <Stack.Screen name="Login" component={this.LoginScreen} />
                 <Stack.Screen name="Main" 
-                component={this.Main} 
+                component={this.MainScreen} 
                 options={{ headerShown: false }}
                 />
                 <Stack.Screen name="SignUp" component={this.SignUpScreen} />    
