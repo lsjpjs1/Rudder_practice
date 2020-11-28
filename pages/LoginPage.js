@@ -16,7 +16,7 @@ class LoginPage extends Component{
     }
 
     connect = async () => {
-        const URL = "http://192.168.75.102:8082/login";
+        const URL = "http://10.0.2.2:8082/login";
         try {
             const response = await fetch(URL,{
                 method: "POST",
